@@ -1,0 +1,20 @@
+[
+  {
+    "id": "USR-001",
+    "email": "hr@enterprise.com",
+    "username": "admin",
+    "password": "RetainIQ@2026",
+    "name": "HR Operations Director",
+    "organization": "Global Enterprise Corp",
+    "role": "HR_DIRECTOR"
+  },
+  {
+    "id": "USR-002",
+    "email": "recruiter@enterprise.com",
+    "username": "recruiter",
+    "password": "Password@123",
+    "name": "Senior Talent Partner",
+    "organization": "Global Enterprise Corp",
+    "role": "TALENT_ACQUISITION"
+  }
+]

@@ -1,0 +1,17 @@
+fixed_cost,salary_share,spearman_r,kendall_tau,top10_overlap,top25_overlap,top50_overlap,top100_overlap,note
+0,0.5,0.9708,0.8533,8,22,42,77,researcher-assumed cost scenario
+0,0.75,0.9708,0.8533,8,22,42,77,researcher-assumed cost scenario
+0,1.0,0.9708,0.8533,8,22,42,77,researcher-assumed cost scenario
+0,1.25,0.9708,0.8533,8,22,42,77,researcher-assumed cost scenario
+10000,0.5,0.9975,0.9573,10,23,45,88,researcher-assumed cost scenario
+10000,0.75,0.9934,0.9299,9,22,44,85,researcher-assumed cost scenario
+10000,1.0,0.9901,0.9139,8,22,43,83,researcher-assumed cost scenario
+10000,1.25,0.9875,0.9035,8,22,43,81,researcher-assumed cost scenario
+25000,0.5,0.998,0.961,10,23,45,94,researcher-assumed cost scenario
+25000,0.75,1.0,1.0,10,25,50,100,researcher-assumed cost scenario
+25000,1.0,0.9991,0.9748,10,23,46,92,researcher-assumed cost scenario
+25000,1.25,0.9975,0.9573,10,23,45,88,researcher-assumed cost scenario
+50000,0.5,0.9849,0.8923,8,16,35,79,researcher-assumed cost scenario
+50000,0.75,0.9939,0.9323,9,21,42,89,researcher-assumed cost scenario
+50000,1.0,0.998,0.961,10,23,45,94,researcher-assumed cost scenario
+50000,1.25,0.9996,0.983,10,25,49,97,researcher-assumed cost scenario

@@ -1,0 +1,51 @@
+{
+  "python_version": "3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)]",
+  "sklearn_version": "1.7.0",
+  "numpy_version": "2.2.6",
+  "pandas_version": "2.3.0",
+  "dataset": "WA_Fn-UseC_-HR-Employee-Attrition.csv",
+  "dataset_shape": [
+    1470,
+    35
+  ],
+  "random_state": 42,
+  "cv_folds": 5,
+  "final_model": "LogisticRegression",
+  "feature_set": "engineered",
+  "calibration": "sigmoid (CalibratedClassifierCV inner 3-fold)",
+  "imbalance_strategy": "class_weight='balanced'",
+  "excluded_from_model": [
+    "EmployeeNumber",
+    "EmployeeCount",
+    "Over18",
+    "StandardHours",
+    "Age",
+    "Gender",
+    "MaritalStatus",
+    "Attrition"
+  ],
+  "audit_cols": [
+    "Age",
+    "Gender",
+    "MaritalStatus"
+  ],
+  "cost_assumptions": {
+    "fixed_cost": 25000.0,
+    "salary_share": 0.75,
+    "seniority_factors": {
+      "1": 0.6,
+      "2": 0.75,
+      "3": 1.0,
+      "4": 1.25,
+      "5": 1.5
+    },
+    "note": "RESEARCHER ASSUMPTIONS \u2013 not industry standards"
+  },
+  "selection_rule": "Highest PR-AUC on engineered feature set",
+  "best_pr_auc": 0.5983,
+  "best_roc_auc": 0.8236,
+  "disclaimer": "DISCLAIMER: RetainIQ is a benchmark research prototype built on the IBM HR Analytics synthetic dataset.  Probabilities, costs, and rankings are model estimates under researcher-defined assumptions.  They are NOT suitable for real employment decisions and do NOT imply causal relationships between features and attrition.",
+  "final_demo_model": "LogisticRegression + Sigmoid CalibratedClassifierCV",
+  "demo_note": "Trained on full dataset for demo only. Research evaluation uses OOF predictions.",
+  "income_median_full": 4919.0
+}

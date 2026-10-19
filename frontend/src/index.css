@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+:root {
+  --canvas: #0A101D;
+  --surface-1: #0F172A;
+  --surface-2: #131E33;
+  --surface-3: #1B2944;
+  --border: #1A2742;
+  --border-subtle: rgba(255, 255, 255, 0.06);
+  --border-strong: rgba(255, 255, 255, 0.16);
+  --primary: #00D26A;
+  --primary-hover: #00B75B;
+  --text-main: #f8fafc;
+  --text-muted: #94a3b8;
+  --text-dim: #64748b;
+  --success: #00D26A;
+  --warning: #f59e0b;
+  --danger: #ef4444;
+}
+
+* {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  box-sizing: border-box;
+}
+
+code, pre, .font-mono {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+body {
+  background-color: var(--canvas);
+  color: var(--text-main);
+  min-height: 100vh;
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Enterprise Panel / Card styling */
+.panel {
+  background: #0E1626;
+  border: 1px solid #1A263C;
+  border-radius: 14px;
+}
+
+.panel-subtle {
+  background: #0B111E;
+  border: 1px solid #182338;
+  border-radius: 12px;
+}
+
+/* Clean Form Controls */
+input, select, textarea {
+  background-color: #0A101D;
+  border: 1px solid #1C2B47;
+  border-radius: 10px;
+  color: #f8fafc;
+  padding: 0.65rem 0.9rem;
+  font-size: 14px;
+  line-height: 1.45;
+  width: 100%;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+input:focus, select:focus, textarea:focus {
+  outline: none;
+  border-color: #00D26A;
+  box-shadow: 0 0 0 1px rgba(0, 210, 106, 0.25);
+}
+
+input::placeholder, textarea::placeholder {
+  color: #475569;
+}
+
+label {
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+  color: #94a3b8;
+  margin-bottom: 0.4rem;
+}
+
+/* Restrained Buttons */
+.btn-primary {
+  background-color: #00D26A;
+  color: #06130C;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 10px;
+  padding: 0.65rem 1.25rem;
+  border: 1px solid transparent;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  transition: background-color 0.15s ease, transform 0.1s ease;
+  box-shadow: 0 0 14px rgba(0, 210, 106, 0.25);
+}
+
+.btn-primary:hover {
+  background-color: #00B75B;
+}
+
+.btn-primary:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+.btn-secondary {
+  background-color: #131C2E;
+  color: #e2e8f0;
+  font-size: 14px;
+  font-weight: 600;
+  border: 1px solid #1E2B46;
+  border-radius: 10px;
+  padding: 0.65rem 1.15rem;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  transition: background-color 0.15s ease, border-color 0.15s ease;
+}
+
+.btn-secondary:hover {
+  background-color: #1A263E;
+  border-color: #25375A;
+}
+
+/* Functional Badges */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.3rem 0.75rem;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.badge-success {
+  background-color: rgba(0, 210, 106, 0.12);
+  color: #00D26A;
+  border: 1px solid rgba(0, 210, 106, 0.3);
+}
+
+.badge-warning {
+  background-color: rgba(245, 158, 11, 0.12);
+  color: #fbbf24;
+  border: 1px solid rgba(245, 158, 11, 0.3);
+}
+
+.badge-danger {
+  background-color: rgba(239, 68, 68, 0.12);
+  color: #f87171;
+  border: 1px solid rgba(239, 68, 68, 0.3);
+}
+
+.badge-neutral {
+  background-color: #131C2E;
+  color: #94a3b8;
+  border: 1px solid #1E2B46;
+}
+
+/* Clean Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--canvas);
+}
+::-webkit-scrollbar-thumb {
+  background: #1C2B47;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #273D66;
+}

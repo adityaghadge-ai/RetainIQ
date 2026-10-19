@@ -1,0 +1,5 @@
+budget,risk_only_leavers_captured,risk_only_pct_leavers_captured,risk_only_cost_captured,risk_only_pct_cost_captured,cost_only_leavers_captured,cost_only_pct_leavers_captured,cost_only_cost_captured,cost_only_pct_cost_captured,risk_x_cost_fixed_leavers_captured,risk_x_cost_fixed_pct_leavers_captured,risk_x_cost_fixed_cost_captured,risk_x_cost_fixed_pct_cost_captured,risk_x_cost_seniority_leavers_captured,risk_x_cost_seniority_pct_leavers_captured,risk_x_cost_seniority_cost_captured,risk_x_cost_seniority_pct_cost_captured,random_mean_leavers_captured,random_pct_leavers_captured,random_mean_cost_captured,random_pct_cost_captured
+10,10,4.2,511171.0,3.2,2,0.8,407336.0,2.5,7,3.0,875695.0,5.4,4,1.7,576253.0,3.6,1.64,0.7,113417.0,0.7
+25,25,10.5,1363369.0,8.4,3,1.3,608241.0,3.8,10,4.2,1161367.0,7.2,7,3.0,910048.0,5.6,4.12,1.7,280451.0,1.7
+50,47,19.8,2542577.0,15.8,4,1.7,806455.0,5.0,22,9.3,2155204.0,13.4,14,5.9,1783592.0,11.1,8.05,3.4,548757.0,3.4
+100,77,32.5,4504976.0,27.9,5,2.1,1000871.0,6.2,53,22.4,4109357.0,25.5,27,11.4,3229695.0,20.0,16.1,6.8,1101451.0,6.8

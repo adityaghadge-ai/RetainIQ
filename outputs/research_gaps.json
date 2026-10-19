@@ -1,0 +1,34 @@
+{
+  "gap1_productivity_weighted_erl": {
+    "description": "Productivity-weighted ERL vs salary-only ERL",
+    "xerl_uplift_mean": 2.076,
+    "xerl_top10_overlap_with_basic_erl": 5
+  },
+  "gap2_replacement_multiplier": {
+    "description": "How many new hires needed to replace one leaver",
+    "mean_rm": 1.486,
+    "rm_gt_2_count": 195,
+    "rm_gt_2_pct": 13.3
+  },
+  "gap3_time_to_productivity": {
+    "description": "Onboarding productivity deficit cost",
+    "mean_ttp_weeks": 22.9,
+    "mean_pgc": 29417.0
+  },
+  "gap4_knowledge_capital_loss": {
+    "description": "Institutional knowledge loss quantification",
+    "mean_kcl": 11992.0,
+    "high_knowledge_employees_gt10yr": 366
+  },
+  "gap5_replacement_availability": {
+    "description": "P(finding equivalent replacement) by role/level",
+    "mean_ras": 0.772,
+    "low_ras_lt04_count": 83
+  },
+  "gap6_xerl_ranking_novelty": {
+    "description": "XERL produces materially different rankings vs basic ERL",
+    "spearman_r_xerl_vs_basic_erl": 0.9131,
+    "top10_overlap_xerl_vs_basic_erl": 5,
+    "top25_overlap_xerl_vs_basic_erl": 15
+  }
+}
